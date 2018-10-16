@@ -1,6 +1,6 @@
 # flutter_app
 
-A new Flutter application.
+This is my first Flutter application, and it is based from "Write your First Flutter App" https://flutter.io/get-started/codelab/
 
 ## Getting Started
 
