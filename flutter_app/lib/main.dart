@@ -38,14 +38,17 @@ class MyApp extends StatelessWidget
 class RandomWordsState extends State<RandomWords>
 {
   final _suggestions = <WordPair>[];
-  final _biggerFont = const TextStyle(fontSize: 18.0);
+  final _biggerFont = const TextStyle(fontSize: 24.0, color: Colors.white);
 
   @override
   Widget build(BuildContext context)
   {
     var myAppBar = new AppBar(title: Text('Startup Name Generator'),);
 
-    return Scaffold(appBar: myAppBar, body: _buildSuggestions());
+    return Scaffold(
+        appBar: myAppBar,
+        body: _buildSuggestions(),
+        backgroundColor: Colors.blue);
   }
 
   Widget _buildSuggestions()
